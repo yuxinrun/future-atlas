@@ -223,6 +223,7 @@ const iconPaths = {
   arrowRight: '<path d="M5 12h14M13 6l6 6-6 6"/>',
   arrowUp: '<path d="M12 20V5M6 11l6-6 6 6"/>',
   bookmark: '<path d="M6 4h12v16l-6-4-6 4z"/>',
+  bookmarkFilled: '<path d="M6 4h12v16l-6-4-6 4z" fill="currentColor"/>',
   chevronDown: '<path d="M6 9l6 6 6-6"/>',
   external: '<path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/>',
   clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',

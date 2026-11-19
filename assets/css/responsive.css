@@ -74,6 +74,8 @@
   .article-body { font-size: 15.5px; line-height: 1.95; }
   .article-body h2 { font-size: 20px; }
   .article-hero-img { aspect-ratio: 4/3; }
+  .article-hero-title { font-size: 17px; padding: 48px 18px 18px; }
+  .card-media-title { font-size: 13px; padding: 30px 14px 12px; }
   .related-grid { grid-template-columns: 1fr; }
   .article-actions { flex-wrap: wrap; }
   .split-cta { flex-direction: column; align-items: flex-start; padding: 28px; }

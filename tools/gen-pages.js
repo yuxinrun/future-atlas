@@ -4,6 +4,7 @@ const root = path.join(__dirname, '..');
 
 const ico = (n, cls = '') => `<img src="assets/icons/ui-${n}.svg" alt="" ${cls ? `class="${cls}"` : ''}>`;
 const arrow = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>`;
+const V = '?v=20261119b';
 
 const navLinks = [
   ['index.html', '首页', 'home'],
@@ -81,16 +82,16 @@ function head(opt) {
 <meta property="og:image" content="assets/images/hero-earth.webp">
 <meta property="og:locale" content="zh_CN">
 <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/components.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/style.css${V}">
+<link rel="stylesheet" href="assets/css/components.css${V}">
+<link rel="stylesheet" href="assets/css/responsive.css${V}">
 <script>try{var t=localStorage.getItem('future-atlas-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
-<script src="assets/js/data.js" defer></script>
-<script src="assets/js/theme.js" defer></script>
-<script src="assets/js/search.js" defer></script>
-<script src="assets/js/filters.js" defer></script>
-<script src="assets/js/timeline.js" defer></script>
-<script src="assets/js/main.js" defer></script>
+<script src="assets/js/data.js${V}" defer></script>
+<script src="assets/js/theme.js${V}" defer></script>
+<script src="assets/js/search.js${V}" defer></script>
+<script src="assets/js/filters.js${V}" defer></script>
+<script src="assets/js/timeline.js${V}" defer></script>
+<script src="assets/js/main.js${V}" defer></script>
 </head>
 <body data-page="${opt.page}">`;
 }

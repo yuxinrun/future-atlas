@@ -118,13 +118,15 @@
       btn.classList.toggle('is-saved', saved);
       btn.setAttribute('aria-pressed', saved ? 'true' : 'false');
       btn.setAttribute('title', saved ? '取消收藏' : '收藏此内容');
+      var icon = btn.querySelector('img[src*="icons/ui-bookmark"]');
+      if (icon) icon.src = 'assets/icons/ui-bookmark' + (saved ? 'Filled' : '') + '.svg';
     });
   }
 
   /* ---------------- 卡片模板 ---------------- */
   function articleCard(a, cls) {
     return '<article class="card card-hover ' + (cls || '') + '">' +
-      '<a href="article.html?id=' + encodeURIComponent(a.id) + '" class="card-media"><img src="' + a.image + '" alt="' + h(a.title) + '" loading="lazy"></a>' +
+      '<a href="article.html?id=' + encodeURIComponent(a.id) + '" class="card-media"><img src="' + a.image + '" alt="' + h(a.title) + '" loading="lazy"><span class="card-media-title">' + h(a.title) + '</span></a>' +
       '<div class="card-body"><div class="card-meta"><span class="tag">' + h(F.categoryName(a.category)) + '</span><span class="dot"></span><span>' + h(a.date) + '</span><span class="dot"></span><span>' + a.readTime + ' 分钟</span></div>' +
       '<h3 class="card-title"><a href="article.html?id=' + encodeURIComponent(a.id) + '">' + h(a.title) + '</a></h3>' +
       '<p class="card-excerpt">' + h(a.summary) + '</p>' +
@@ -134,7 +136,7 @@
 
   function observationCard(a, index) {
     return '<article class="card card-hover observation-card">' +
-      '<a href="article.html?id=' + encodeURIComponent(a.id) + '" class="card-media"><span class="observation-index">0' + index + '</span><img src="' + a.image + '" alt="' + h(a.title) + '" loading="lazy"></a>' +
+      '<a href="article.html?id=' + encodeURIComponent(a.id) + '" class="card-media"><span class="observation-index">0' + index + '</span><img src="' + a.image + '" alt="' + h(a.title) + '" loading="lazy"><span class="card-media-title">' + h(a.title) + '</span></a>' +
       '<div class="card-body"><div class="card-meta"><span class="tag">' + h(F.categoryName(a.category)) + '</span><span class="dot"></span><span>' + a.readTime + ' 分钟阅读</span></div>' +
       '<h3 class="card-title" style="font-size:17px"><a href="article.html?id=' + encodeURIComponent(a.id) + '">' + h(a.title) + '</a></h3>' +
       '<p class="card-excerpt">' + h(a.summary) + '</p></div></article>';
@@ -451,7 +453,7 @@
       '<header class="article-header"><div class="card-meta"><span class="tag">' + h(F.categoryName(article.category)) + '</span>' + (article.tags || []).map(function (t) { return '<span class="tag">' + h(t) + '</span>'; }).join('') + '</div>' +
       '<h1>' + h(article.title) + '</h1><p class="article-lead">' + h(article.summary) + '</p>' +
       '<div class="article-meta"><span class="author-avatar">' + h(article.author.slice(0, 1)) + '</span><span>' + h(article.author) + '</span><span>·</span><span>' + h(article.source) + '</span><span>·</span><span>发布于 ' + h(article.date) + '</span><span>·</span><span>约 ' + article.readTime + ' 分钟</span></div></header>' +
-      '<img class="article-hero-img" src="' + article.image + '" alt="' + h(article.title) + ' 配图">' +
+      '<div class="article-hero-wrap"><img class="article-hero-img" src="' + article.image + '" alt="' + h(article.title) + ' 配图"><span class="card-media-title article-hero-title">' + h(article.title) + '</span></div>' +
       '<div class="article-body">' +
       (article.keyPoints ? '<div class="key-points"><h4>核心要点</h4><ul>' + article.keyPoints.map(function (k) { return '<li>' + h(k) + '</li>'; }).join('') + '</ul></div>' : '') +
       (article.body || []).map(function (s, i) {
