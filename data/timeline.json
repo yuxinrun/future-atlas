@@ -1,0 +1,322 @@
+[
+  {
+    "id": "t2026-ai",
+    "year": 2026,
+    "title": "生成式 AI 进入规模化企业部署",
+    "description": "大模型从试点走向生产环境，智能体开始承担多步骤业务流程，企业关注点从能力转向可靠性与治理。",
+    "category": "tech",
+    "status": "fact",
+    "source": "多家企业公开产品与财报信息，编辑部整理",
+    "article": "ai-agents-2026"
+  },
+  {
+    "id": "t2026-energy",
+    "year": 2026,
+    "title": "全球可再生能源装机持续刷新纪录",
+    "description": "光伏与风电成本优势延续，储能配套快速扩张，多国电力系统低碳转型加速。",
+    "category": "energy",
+    "status": "fact",
+    "source": "国际能源署公开统计数据",
+    "article": "fusion-energy"
+  },
+  {
+    "id": "t2026-station",
+    "year": 2026,
+    "title": "商业空间站进入在轨组装阶段",
+    "description": "多个商业近地轨道平台开始核心舱段发射与组装，为后续科研与旅游任务提供基础设施。",
+    "category": "space",
+    "status": "plan",
+    "source": "各航天企业公开任务计划",
+    "article": "reusable-rockets"
+  },
+  {
+    "id": "t2026-av",
+    "year": 2026,
+    "title": "自动驾驶服务在限定区域扩大运营",
+    "description": "无人驾驶出租车在更多城市开放收费服务，运营边界与远程接管体系逐步成熟。",
+    "category": "transport",
+    "status": "fact",
+    "source": "企业与监管机构公开信息",
+    "article": "fifteen-minute-city"
+  },
+  {
+    "id": "t2026-health",
+    "year": 2026,
+    "title": "衰老干预研究进入临床验证阶段",
+    "description": "多种针对衰老机制的干预手段进入人体试验，研究重心从延长寿命转向延长健康寿命。",
+    "category": "health",
+    "status": "fact",
+    "source": "公开临床试验注册信息",
+    "article": "longevity"
+  },
+  {
+    "id": "t2030-sdg",
+    "year": 2030,
+    "title": "联合国可持续发展目标中期评估",
+    "description": "国际社会对 2030 年议程进行系统盘点，评估减贫、气候与教育等领域目标的实现进度。",
+    "category": "society",
+    "status": "plan",
+    "source": "联合国 2030 年可持续发展议程",
+    "article": "sponge-city"
+  },
+  {
+    "id": "t2030-6g",
+    "year": 2030,
+    "title": "6G 技术进入商用试点",
+    "description": "在 5G 演进与卫星互联网融合基础上，新一代通信技术开始小规模部署，支持极低时延应用。",
+    "category": "tech",
+    "status": "prediction",
+    "source": "行业技术路线图综合判断",
+    "article": "edge-ai"
+  },
+  {
+    "id": "t2030-ev",
+    "year": 2030,
+    "title": "电动车在新车销量中的占比显著提升",
+    "description": "电池成本下降与充电网络完善推动电动化，多个主要市场计划逐步停止燃油新车销售。",
+    "category": "transport",
+    "status": "prediction",
+    "source": "国际能源署情景分析",
+    "article": "fifteen-minute-city"
+  },
+  {
+    "id": "t2030-moon",
+    "year": 2030,
+    "title": "月球探测任务密集实施",
+    "description": "多个国家的月球南极着陆与采样任务陆续执行，为后续科研站选址积累数据。",
+    "category": "space",
+    "status": "plan",
+    "source": "各国航天机构公开规划",
+    "article": "moon-base"
+  },
+  {
+    "id": "t2030-cdr",
+    "year": 2030,
+    "title": "碳移除技术进入规模化示范",
+    "description": "直接空气捕集与生物炭等方案从试验走向工业示范，成本与能耗仍是主要瓶颈。",
+    "category": "environment",
+    "status": "prediction",
+    "source": "IPCC 评估报告情景讨论",
+    "article": "sponge-city"
+  },
+  {
+    "id": "t2040-quantum",
+    "year": 2040,
+    "title": "容错量子计算进入实用化早期",
+    "description": "纠错后的逻辑量子比特数量达到解决特定科学问题的门槛，材料与药物研发率先受益。",
+    "category": "tech",
+    "status": "prediction",
+    "source": "研究机构路线图综合推演",
+    "article": "quantum-computing"
+  },
+  {
+    "id": "t2040-lunar",
+    "year": 2040,
+    "title": "载人重返月球并建立阶段性驻留",
+    "description": "在前期无人任务基础上，载人登月任务恢复，短期驻留逐步扩展为轮换式科研站运行。",
+    "category": "space",
+    "status": "plan",
+    "source": "主要航天机构长期规划",
+    "article": "moon-base"
+  },
+  {
+    "id": "t2040-fusion",
+    "year": 2040,
+    "title": "聚变示范电站尝试并网",
+    "description": "若工程与材料难题取得突破，首批聚变示范装置可能向电网输送电力，商业可行性仍待验证。",
+    "category": "energy",
+    "status": "scenario",
+    "source": "编辑部情景推演",
+    "article": "fusion-energy"
+  },
+  {
+    "id": "t2040-transport",
+    "year": 2040,
+    "title": "城市交通走向全面电动化与自动化",
+    "description": "公共交通与物流车队率先完成转型，私家车出行比例在紧凑型城市中逐步下降。",
+    "category": "transport",
+    "status": "prediction",
+    "source": "城市交通趋势外推",
+    "article": "fifteen-minute-city"
+  },
+  {
+    "id": "t2040-gene",
+    "year": 2040,
+    "title": "基因治疗覆盖更多罕见疾病",
+    "description": "递送技术与编辑精度提升，使更多单基因疾病获得可及的治疗方案，成本仍是障碍。",
+    "category": "health",
+    "status": "prediction",
+    "source": "生物医学研究趋势外推",
+    "article": "synthetic-biology"
+  },
+  {
+    "id": "t2050-netzero",
+    "year": 2050,
+    "title": "全球净零排放关键节点",
+    "description": "众多国家与城市承诺在此时点前后实现温室气体净零排放，实际进展高度依赖政策持续性。",
+    "category": "environment",
+    "status": "plan",
+    "source": "各国与城市公开承诺",
+    "article": "sponge-city"
+  },
+  {
+    "id": "t2050-ai-research",
+    "year": 2050,
+    "title": "AI 深度融入科学研究全流程",
+    "description": "从提出假设到设计实验与解释结果，人工智能成为科研人员常规协作伙伴。",
+    "category": "tech",
+    "status": "prediction",
+    "source": "编辑部情景推演",
+    "article": "ai-agents-2026"
+  },
+  {
+    "id": "t2050-aging",
+    "year": 2050,
+    "title": "全球人口结构显著老龄化",
+    "description": "生育率下降与预期寿命提高叠加，老年人口占比大幅上升，社会保障体系面临压力。",
+    "category": "society",
+    "status": "prediction",
+    "source": "联合国人口司中长期展望",
+    "article": "longevity"
+  },
+  {
+    "id": "t2050-hyperloop",
+    "year": 2050,
+    "title": "新型城际高速交通进入商业运营",
+    "description": "在部分高密度走廊，超高速地面交通或新型航空方案可能投入运营，重塑城市群关系。",
+    "category": "transport",
+    "status": "scenario",
+    "source": "编辑部假设情景",
+    "article": "fifteen-minute-city"
+  },
+  {
+    "id": "t2050-food",
+    "year": 2050,
+    "title": "替代蛋白与垂直农业扩大供给",
+    "description": "细胞培养肉、发酵蛋白与城市垂直农场在部分市场形成规模，缓解传统农业的土地压力。",
+    "category": "society",
+    "status": "scenario",
+    "source": "编辑部情景推演",
+    "article": "synthetic-biology"
+  },
+  {
+    "id": "t2070-lunar",
+    "year": 2070,
+    "title": "月球常驻社区形成规模",
+    "description": "依托原位资源利用与稳定运输，月球南极可能维持数十人规模的轮换制科研社区。",
+    "category": "space",
+    "status": "scenario",
+    "source": "编辑部假设情景",
+    "article": "moon-base"
+  },
+  {
+    "id": "t2070-work",
+    "year": 2070,
+    "title": "后工作社会形态逐步稳定",
+    "description": "工作与收入的绑定关系松动，终身学习、项目制协作与新的社会保障安排成为常态。",
+    "category": "economy",
+    "status": "scenario",
+    "source": "编辑部假设情景",
+    "article": "post-work"
+  },
+  {
+    "id": "t2070-city",
+    "year": 2070,
+    "title": "气候适应型城市成为建设标准",
+    "description": "海绵城市、生态基础设施与被动式设计被纳入普遍规范，城市热岛与内涝风险显著下降。",
+    "category": "environment",
+    "status": "scenario",
+    "source": "编辑部情景推演",
+    "article": "sponge-city"
+  },
+  {
+    "id": "t2070-cognition",
+    "year": 2070,
+    "title": "人机协同认知成为普遍能力",
+    "description": "外部智能深度嵌入学习、记忆与决策过程，人类与工具的边界变得模糊。",
+    "category": "society",
+    "status": "scenario",
+    "source": "编辑部假设情景",
+    "article": "digital-identity"
+  },
+  {
+    "id": "t2070-healthspan",
+    "year": 2070,
+    "title": "健康寿命显著延长",
+    "description": "若衰老干预取得实质突破，无病生存年数可能增加十年以上，医疗体系转向长期健康管理。",
+    "category": "health",
+    "status": "scenario",
+    "source": "编辑部乐观情景",
+    "article": "longevity"
+  },
+  {
+    "id": "t2070-deepspace",
+    "year": 2070,
+    "title": "深空探测抵达更远目标",
+    "description": "机器人任务对木卫二、土卫二与更远天体开展长期观测，为载人探索积累环境数据。",
+    "category": "space",
+    "status": "scenario",
+    "source": "编辑部假设情景",
+    "article": "extraterrestrial-life"
+  },
+  {
+    "id": "t2100-mars",
+    "year": 2100,
+    "title": "火星出现局部自给的定居点",
+    "description": "在经历数十年的技术积累后，火星社区可能实现部分物资自给，不再完全依赖地球补给。",
+    "category": "space",
+    "status": "scenario",
+    "source": "编辑部假设情景",
+    "article": "moon-base"
+  },
+  {
+    "id": "t2100-energy",
+    "year": 2100,
+    "title": "聚变能与太阳能共同主导全球能源",
+    "description": "若聚变商业化成功，清洁基荷能源与分布式太阳能将构成全球能源系统的主干。",
+    "category": "energy",
+    "status": "scenario",
+    "source": "编辑部乐观情景",
+    "article": "fusion-energy"
+  },
+  {
+    "id": "t2100-population",
+    "year": 2100,
+    "title": "全球人口达峰后进入缓慢下降",
+    "description": "联合国中期展望显示全球人口可能在本世纪内见顶，随后进入长期缓慢收缩阶段。",
+    "category": "society",
+    "status": "prediction",
+    "source": "联合国人口司《世界人口展望》",
+    "article": "longevity"
+  },
+  {
+    "id": "t2100-ai",
+    "year": 2100,
+    "title": "人工智能能力边界重塑文明",
+    "description": "人工智能可能在不同领域达到或超越人类专家水平，社会制度与伦理框架随之深度调整。",
+    "category": "tech",
+    "status": "scenario",
+    "source": "编辑部假设情景",
+    "article": "ai-agents-2026"
+  },
+  {
+    "id": "t2100-restoration",
+    "year": 2100,
+    "title": "大规模生态修复工程展开",
+    "description": "在气候趋于稳定后，人类可能开展系统性的生态系统修复与物种重引入工程。",
+    "category": "environment",
+    "status": "scenario",
+    "source": "编辑部假设情景",
+    "article": "sponge-city"
+  },
+  {
+    "id": "t2100-interstellar",
+    "year": 2100,
+    "title": "星际探测开启新的文明对话",
+    "description": "远程探测与光谱分析可能提供更清晰的地外生命线索，改变人类在宇宙中的自我定位。",
+    "category": "space",
+    "status": "scenario",
+    "source": "编辑部假设情景",
+    "article": "extraterrestrial-life"
+  }
+]

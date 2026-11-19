@@ -1,0 +1,103 @@
+/* ============================================================
+   Future Atlas — 响应式适配
+   ============================================================ */
+
+@media (max-width: 1180px) {
+  .main-nav a { padding: 8px 9px; font-size: 12.5px; }
+  .header-inner { gap: 18px; }
+  .article-layout { grid-template-columns: 190px minmax(0,1fr); gap: 32px; }
+  .article-aside { display: none; }
+  .footer-top { gap: 36px; }
+}
+
+@media (max-width: 980px) {
+  .main-nav { display: none; }
+  .menu-toggle { display: inline-flex; }
+  .header-actions { margin-left: auto; }
+  .section { padding: 82px 0; }
+  .hero { min-height: 88vh; min-height: 88svh; }
+  .hero-orbit { right: -320px; opacity: .7; }
+  .masonry-feature .feature-card { grid-template-columns: 1.1fr 1fr; min-height: 300px; }
+  .masonry-feature .feature-card .card-body { padding: 24px; }
+  .masonry-feature .feature-card .card-title { font-size: 22px; }
+  .grid-4 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .grid-3 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .footer-top { grid-template-columns: repeat(2, 1fr); gap: 44px 30px; }
+  .article-layout { grid-template-columns: 1fr; }
+  .article-sidebar { position: static; display: none; }
+  .related-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .timeline-entry, .timeline-entry:nth-child(even) { width: 100%; margin-left: 0; padding: 0 0 26px 40px; }
+  .timeline-wrap::before { left: 6px; }
+  .timeline-entry::before, .timeline-entry:nth-child(even)::before { left: 1px; right: auto; }
+  .timeline-year-badge { margin-left: 0; }
+}
+
+@media (max-width: 720px) {
+  :root { --header-h: 66px; }
+  .container, .container-narrow, .header-inner { width: min(100% - 36px, var(--max)); }
+  body { font-size: 15px; }
+  .section { padding: 68px 0; }
+  .section-tight { padding: 52px 0; }
+  .section-head { flex-direction: column; align-items: flex-start; gap: 16px; margin-bottom: 32px; }
+  .section-title { font-size: 27px; }
+  .brand-name { font-size: 14px; }
+  .brand-sub { font-size: 9px; letter-spacing: .26em; }
+  .brand-mark { width: 30px; height: 30px; }
+  .header-actions .icon-btn.theme-toggle { display: none; }
+  .hero { padding: calc(var(--header-h) + 56px) 0 90px; min-height: 92svh; align-items: flex-start; }
+  .hero-title { font-size: clamp(2.3rem, 10vw, 3.4rem); }
+  .hero-sub { font-size: 14.5px; }
+  .hero-stats { gap: 24px; margin-top: 48px; }
+  .hero-stat strong { font-size: 22px; }
+  .hero-stat span { font-size: 11px; }
+  .scroll-hint { display: none; }
+  .hero-orbit { display: none; }
+  .grid-2, .grid-3, .grid-4, .masonry-feature { grid-template-columns: 1fr; }
+  .masonry-feature .feature-card { display: flex; flex-direction: column; min-height: 0; }
+  .masonry-feature .feature-card .card-media { aspect-ratio: 16 / 9; height: auto; }
+  .masonry-feature .feature-card .card-title { font-size: 19px; }
+  .category-card { min-height: 230px; padding: 22px; }
+  .category-icon { width: 52px; height: 52px; }
+  .category-card h3 { margin-top: 22px; font-size: 18px; }
+  .topic-card { min-height: 240px; }
+  .filter-bar { padding: 16px; gap: 14px; }
+  .filter-group { width: 100%; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  .filter-label { flex-shrink: 0; }
+  .toolbar { flex-direction: column; align-items: stretch; }
+  .toolbar-right { justify-content: space-between; }
+  .book-cover { width: 116px; }
+  .page-hero { padding: calc(var(--header-h) + 58px) 0 48px; }
+  .page-hero h1 { font-size: 32px; }
+  .page-hero p { font-size: 14.5px; }
+  .article-header h1 { font-size: 29px; }
+  .article-lead { font-size: 15.5px; }
+  .article-body { font-size: 15.5px; line-height: 1.95; }
+  .article-body h2 { font-size: 20px; }
+  .article-hero-img { aspect-ratio: 4/3; }
+  .related-grid { grid-template-columns: 1fr; }
+  .article-actions { flex-wrap: wrap; }
+  .split-cta { flex-direction: column; align-items: flex-start; padding: 28px; }
+  .modal { padding: 24px; max-height: 92vh; }
+  .modal h2 { font-size: 20px; }
+  .footer-top { grid-template-columns: 1fr; gap: 34px; padding-bottom: 40px; }
+  .footer-brand p { max-width: none; }
+  .footer-bottom { flex-direction: column; gap: 10px; }
+  .back-to-top { right: 16px; bottom: 18px; width: 40px; height: 40px; }
+  .timeline-entry { padding-left: 32px; }
+  .timeline-node { padding: 18px; }
+  .search-bar { padding-left: 14px; }
+}
+
+@media (max-width: 420px) {
+  .hero-title { font-size: 2.15rem; }
+  .hero-actions { flex-direction: column; align-items: stretch; }
+  .hero-actions .btn { width: 100%; }
+  .hero-stats { gap: 16px; }
+  .hero-stat { flex: 1 1 42%; }
+  .search-bar .btn span { display: none; }
+  .search-bar .btn { padding-inline: 14px; }
+  .card-body { padding: 18px; }
+  .book-cover { width: 104px; }
+  .resource-card { padding: 18px; }
+  .resource-logo { width: 40px; height: 40px; }
+}

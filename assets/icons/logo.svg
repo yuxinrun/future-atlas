@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" role="img" aria-label="Future Atlas 标志">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4d8dff"/><stop offset="1" stop-color="#35d0d8"/></linearGradient>
+    <linearGradient id="lp" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b6ff5"/><stop offset="1" stop-color="#4d8dff"/></linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="21" stroke="url(#lg)" stroke-width="1.6" opacity=".65"/>
+  <ellipse cx="24" cy="24" rx="21" ry="8" transform="rotate(-28 24 24)" stroke="url(#lp)" stroke-width="1.6"/>
+  <circle cx="24" cy="24" r="8" fill="#0b1630" stroke="url(#lg)" stroke-width="2"/>
+  <circle cx="24" cy="24" r="3.4" fill="url(#lg)"/>
+  <circle cx="41" cy="15" r="2.6" fill="#35d0d8"/>
+  <circle cx="8" cy="32" r="2" fill="#8b6ff5"/>
+</svg>

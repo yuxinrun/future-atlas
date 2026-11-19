@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>未来研究机构与网站 — Future Atlas 未来图谱</title>
+<meta name="description" content="整理全球未来学研究机构、智库、科学组织、科技媒体与开放数据库，区分官方网站与第三方资料。">
+<meta name="keywords" content="未来研究机构,智库,未来学网站,科技媒体,开放数据">
+<meta name="theme-color" content="#060b18">
+<meta property="og:type" content="website">
+<meta property="og:title" content="未来研究机构与网站 — Future Atlas 未来图谱">
+<meta property="og:description" content="整理全球未来学研究机构、智库、科学组织、科技媒体与开放数据库，区分官方网站与第三方资料。">
+<meta property="og:image" content="assets/images/hero-earth.webp">
+<meta property="og:locale" content="zh_CN">
+<link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<script>try{var t=localStorage.getItem('future-atlas-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/theme.js" defer></script>
+<script src="assets/js/search.js" defer></script>
+<script src="assets/js/filters.js" defer></script>
+<script src="assets/js/timeline.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="resources">
+<div class="reading-progress" aria-hidden="true"></div>
+<header class="site-header is-solid">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Future Atlas 首页">
+      <img class="brand-mark" src="assets/icons/logo.svg" alt="Future Atlas 标志">
+      <span class="brand-text"><span class="brand-name">FUTURE ATLAS</span><span class="brand-sub">未来图谱</span></span>
+    </a>
+    <nav class="main-nav" aria-label="主导航"><a href="index.html">首页</a><a href="trends.html">未来趋势</a><a href="trends.html?category=tech">未来科技</a><a href="index.html#topics">未来世界</a><a href="predictions.html">未来预测</a><a href="books.html">书籍与报告</a><a href="resources.html" class="is-active" aria-current="page">研究机构</a><a href="timeline.html">时间轴</a></nav>
+    <div class="header-actions">
+      <button class="icon-btn" data-search-open aria-label="全站搜索" title="全站搜索 (Ctrl+K)"><img src="assets/icons/ui-search.svg" alt="" ></button>
+      <button class="icon-btn theme-toggle" data-theme-toggle aria-label="切换主题" aria-pressed="false"><img src="assets/icons/ui-sun.svg" alt="" ></button>
+      <button class="icon-btn menu-toggle" aria-label="打开菜单" aria-expanded="false"><img src="assets/icons/ui-menu.svg" alt="" ></button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-menu" aria-label="移动端导航"><a href="index.html">首页</a><a href="trends.html">未来趋势</a><a href="trends.html?category=tech">未来科技</a><a href="index.html#topics">未来世界</a><a href="predictions.html">未来预测</a><a href="books.html">书籍与报告</a><a href="resources.html">研究机构</a><a href="timeline.html">时间轴</a><a href="about.html">关于本站</a><a href="about.html" class="btn btn-ghost mobile-cta">了解 Future Atlas</a></nav>
+<main>
+<section class="page-hero"><div class="container page-hero-inner">
+  <nav class="breadcrumb" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><span>研究机构与网站</span></nav>
+  <span class="eyebrow">Research Directory</span>
+  <h1>未来研究机构与网站</h1><p>26 个值得长期关注的思想来源。每条资源标注类型、研究方向、地区与链接性质，官方网站与第三方资料分开标识。</p>
+</div></section>
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <div class="filter-group"><span class="filter-label">类型</span><span id="resource-category-chips" style="display:contents"></span></div>
+      <div class="filter-group"><span class="filter-label">链接</span><span id="linktype-chips" style="display:contents"></span></div>
+      <div class="filter-group"><label class="filter-label" for="resource-search">搜索</label><div class="search-bar search-compact"><img src="assets/icons/ui-search.svg" alt="" ><input id="resource-search" type="search" placeholder="机构名称、方向或地区…"></div></div>
+    </div>
+    <div class="toolbar"><span class="result-count" id="result-count"></span></div>
+    <div class="grid grid-2" id="resource-list"></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><img class="brand-mark" src="assets/icons/logo.svg" alt=""><span class="brand-text"><span class="brand-name">FUTURE ATLAS</span><span class="brand-sub">未来图谱</span></span></a>
+        <p>一个面向中文读者的未来知识图书馆。收集、整理并解读未来趋势、科技突破、社会演进与文明设想，让复杂的未来议题变得可理解、可讨论。</p>
+      </div>
+      <div class="footer-col"><h4>内容分类</h4>
+        <a href="trends.html">未来趋势</a><a href="predictions.html">未来预测</a><a href="trends.html?category=ai">人工智能</a><a href="trends.html?category=space">太空探索</a><a href="timeline.html">未来时间轴</a>
+      </div>
+      <div class="footer-col"><h4>资源导航</h4>
+        <a href="books.html">未来学书籍</a><a href="resources.html">研究机构</a><a href="resources.html?category=media">科技媒体</a><a href="index.html#topics">深度专题</a><a href="about.html">关于本站</a>
+      </div>
+      <div class="footer-col"><h4>联系与说明</h4>
+        <a href="about.html#method">内容方法</a><a href="about.html#sources">素材来源</a><a href="about.html#disclaimer">免责声明</a><a href="mailto:hello@futureatlas.example">联系编辑部</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-disclaimer">免责声明：本站内容仅供学习与研究参考。预测类内容均标注来源与不确定性，其中「假设情景」为编辑部首创推演，不代表任何机构立场，不应作为投资或决策依据。</div>
+      <div>© <span data-year>2026</span> Future Atlas 未来图谱 · 保留所有权利</div>
+    </div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="返回顶部"><img src="assets/icons/ui-arrowUp.svg" alt="" ></button></body>
+</html>

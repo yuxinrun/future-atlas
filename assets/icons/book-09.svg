@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 260" role="img" aria-label="生命3.0 书籍封面插画">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b1f4d"/><stop offset="1" stop-color="#0a1226"/></linearGradient></defs>
+  <rect width="180" height="260" rx="6" fill="url(#bg)"/>
+  <rect x="5" y="5" width="170" height="250" rx="3" fill="none" stroke="#a98cff" stroke-opacity=".35"/>
+  <rect x="13" y="12" width="2" height="236" fill="#a98cff" opacity=".55"/>
+  <g stroke="#a98cff" stroke-width="2" fill="none"><path d="M68 40c46 30 46 72 0 100"/><path d="M112 40c-46 30-46 72 0 100"/><path d="M70 48h40" opacity=".5"/><path d="M72 64h40" opacity=".5"/><path d="M74 80h40" opacity=".5"/><path d="M76 96h40" opacity=".5"/><path d="M78 112h40" opacity=".5"/><path d="M80 128h40" opacity=".5"/></g>
+  <text x="90" y="190" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700" font-family="PingFang SC, Microsoft YaHei, sans-serif">生命3.0</text>
+  <text x="90" y="212" text-anchor="middle" fill="#a98cff" font-size="8.5" letter-spacing="1.4" font-family="Arial, sans-serif">LIFE 3.0</text>
+  <path d="M60 228h60" stroke="#a98cff" stroke-opacity=".5"/>
+  <text x="90" y="244" text-anchor="middle" fill="#9fb0d0" font-size="7.5" letter-spacing="2" font-family="Arial, sans-serif">FUTURE ATLAS</text>
+</svg>

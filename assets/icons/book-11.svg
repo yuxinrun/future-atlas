@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 260" role="img" aria-label="AI 3.0 书籍封面插画">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f2b35"/><stop offset="1" stop-color="#0a1226"/></linearGradient></defs>
+  <rect width="180" height="260" rx="6" fill="url(#bg)"/>
+  <rect x="5" y="5" width="170" height="250" rx="3" fill="none" stroke="#8fd4ff" stroke-opacity=".35"/>
+  <rect x="13" y="12" width="2" height="236" fill="#8fd4ff" opacity=".55"/>
+  <g fill="#8fd4ff"><circle cx="60" cy="62" r="7" opacity="0.6"/><circle cx="118" cy="62" r="7" opacity="0.6"/><circle cx="90" cy="86" r="12" opacity="0.9"/><circle cx="60" cy="112" r="7" opacity="0.6"/><circle cx="118" cy="112" r="7" opacity="0.6"/></g><g stroke="#8fd4ff" stroke-opacity=".5"><path d="M60 62L90 86L118 62M60 112L90 86L118 112M60 62v50M118 62v50"/></g>
+  <text x="90" y="190" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI 3.0</text>
+  <text x="90" y="212" text-anchor="middle" fill="#8fd4ff" font-size="8.5" letter-spacing="1.4" font-family="Arial, sans-serif">AI 3.0</text>
+  <path d="M60 228h60" stroke="#8fd4ff" stroke-opacity=".5"/>
+  <text x="90" y="244" text-anchor="middle" fill="#9fb0d0" font-size="7.5" letter-spacing="2" font-family="Arial, sans-serif">FUTURE ATLAS</text>
+</svg>

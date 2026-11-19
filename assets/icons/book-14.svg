@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 260" role="img" aria-label="全球科技通史 书籍封面插画">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#33251c"/><stop offset="1" stop-color="#0a1226"/></linearGradient></defs>
+  <rect width="180" height="260" rx="6" fill="url(#bg)"/>
+  <rect x="5" y="5" width="170" height="250" rx="3" fill="none" stroke="#e6a76b" stroke-opacity=".35"/>
+  <rect x="13" y="12" width="2" height="236" fill="#e6a76b" opacity=".55"/>
+  <path d="M32 118L56 92L76 104L100 62L122 76L148 40" fill="none" stroke="#e6a76b" stroke-width="2.5" opacity=".85"/><circle cx="100" cy="62" r="5" fill="#e6a76b"/>
+  <text x="90" y="190" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700" font-family="PingFang SC, Microsoft YaHei, sans-serif">全球科技通史</text>
+  <text x="90" y="212" text-anchor="middle" fill="#e6a76b" font-size="8.5" letter-spacing="1.4" font-family="Arial, sans-serif">TECH HISTORY</text>
+  <path d="M60 228h60" stroke="#e6a76b" stroke-opacity=".5"/>
+  <text x="90" y="244" text-anchor="middle" fill="#9fb0d0" font-size="7.5" letter-spacing="2" font-family="Arial, sans-serif">FUTURE ATLAS</text>
+</svg>
